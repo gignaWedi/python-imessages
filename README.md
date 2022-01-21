@@ -11,7 +11,7 @@
 2. Clone the repository
    - Use git on cli/gui or just Code > Download
 
-3. Write Python Script
+3. Edit Python Script
    - Edit the python script to get the desired effect.
    - This is marked with a comment in `imessages.py`
 
