@@ -11,5 +11,8 @@ sheet = f'https://docs.google.com/spreadsheets/d/{data["sheet_id"]}/export?forma
 
 df = pd.read_csv(sheet)
 
+
+# Edit Code after this line
+
 df.apply(lambda row: send(row["Number"], row["Message"]), axis = 1)
 
