@@ -2,20 +2,16 @@
 
 ## Usage
 
-1. Create a Google Sheet
+1. Clone the repository
+   - Use git on cli/gui or just Code > Download
+
+2. Create a Google Sheet
    - Note the id of the spreadsheet (between `/d/` and `/edit...`) and the name of the sheet.
      - Add these to the configuration files.
      - (That is, `config.toml`)
    - Set the spreadsheet to be shared with anyone with a link.
 
-2. Clone the repository
-   - Use git on cli/gui or just Code > Download
-
-3. Edit Python Script
-   - Edit the python script to get the desired effect.
-   - This is marked with a comment in `imessages.py`
-
-4. Run the script
+3. Run the script
 ```bash
 # one time setup
 pip3 install -r requirements.txt
